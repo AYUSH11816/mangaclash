@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/ai_illustration_oekaki-20230629-0003.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+}
+.navigation{
+    background-color: rgba(13, 211, 229,.5);
+    height: 100px;
+    
+}
+.navigation img{
+    height: 95px;
+    width: 150px;
+    border: 2px solid black;
+}
+.navigation nav{
+    position:absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.navigation nav .container a{
+    text-decoration: none;
+    padding-left: 50px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navigation nav .container img{
+    height: 10px;
+    width: 15px;
+    
+}
+.navigation .container a:hover{
+    text-decoration: underline;
+    transition: ease-out 0.2s ;
+}
+.navigation nav .search{
+    input[type = button]{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+}
+.list_manga{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+.list_manga img{
+    max-width: 150px;
+    max-height: 180px;
+    border: 1px solid blue;
+}
+.list_manga h1{
+    font-size: 15px;
+   text-align: right;
+   position: top;
+}
+
+footer{
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    bottom: 0;
+    border: 1px solid blue;
+}
+footer .links{
+    position: absolute;
+    right: 30px;
+}
+footer .container{
+    position: relative;
+    left: 50%;
+}
+footer .container a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    width: 50px;
+}
